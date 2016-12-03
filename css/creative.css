@@ -397,7 +397,7 @@ fieldset[disabled] .btn-primary.active {
   padding: 15px 30px;
 }
 .custom-text{
-  color: #1995ad;
+  color: #fb6542;
 }
 .custom-text-2{
   color: #fb6542;
@@ -408,7 +408,7 @@ fieldset[disabled] .btn-primary.active {
 .custom-title-skills:after{
   content:' ';
   display:block;
-  border:1px solid #1995ad;
+  border:1px solid #fb6542;
   margin: 30px 0;
   width: 70%;
 }
@@ -426,7 +426,7 @@ fieldset[disabled] .btn-primary.active {
   border:0px !important;
 }
 .experience-details {
-  color: #1995ad;
+  color: #fb6542;
 }
 div.circle-avatar{
   /* make it responsive */
