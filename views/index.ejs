@@ -23,8 +23,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="css/creative.min.css" rel="stylesheet">
-  <link href="../css/style.css" rel="stylesheet">
+  <link href="css/creative.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,13 +50,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="#about">About</a>
+          <a class="page-scroll" href="#about">Profile</a>
         </li>
         <li>
-          <a class="page-scroll" href="#services">Services</a>
+          <a class="page-scroll" href="#services">Skills</a>
         </li>
         <li>
-          <a class="page-scroll" href="#portfolio">Portfolio</a>
+          <a class="page-scroll" href="#portfolio">Experiences</a>
         </li>
         <li>
           <a class="page-scroll" href="#contact">Contact</a>
@@ -80,14 +79,36 @@
   </div>
 </header>
 
-<section class="bg-primary" id="about">
+<section id="about" class="bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading">About Me</h2>
-        <hr class="light">
-        <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-        <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+      <div class="col-lg-12 text-center">
+        <h1 class="section-heading custom-text custom-title">Profile</h1>
+        <hr>
+        <div class="col-lg-3 col-lg-offset-1 text-left">
+          <h3 class="custom-title-skills">About Me</h3>
+          <p class="text-left">I'm a third year software engineering student who's very passonate about web development and design (and cats).  
+            My end goal is to eventually be a full-stack developer. I love structure and order and I always try to make the best product I can.
+            Also, I enjoy working in teams because I feel I learn more and faster.
+            I'm currently looking for a co-op starting April, 2017.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <div style="height: 250px; width: 250px; margin: 0 auto;">
+            <div class="circle-avatar" style="background-image:url(../img/me.jpg)"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-left">
+          <h3 class="custom-title-skills">Details</h3>
+          <div>
+            <h4 style="font-weight: bold;">Name:</h4>
+            <p class="text-left">Brandon Zhou-Charles</p>
+            <h4 style="font-weight: bold;">Education</h4>
+            <p class="text-left">3rd year Software Engineering at the University of Victoria</p>
+            <h4 style="font-weight: bold;">Where</h4>
+            <p class="text-left">Victoria, British Columbia, Canada, Earth</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -97,166 +118,140 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">At Your Service</h2>
+        <h1 class="section-heading custom-text">My Skills</h1>
         <hr class="primary">
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-10 col-offset-1">
+        <h3 class="custom-title-skills">Web Development</h3>
+        <div>
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-offset-1">
+        <h3 class="custom-title-skills">Languages</h3>
+        <div>
+          <canvas id="myChart2"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-offset-1">
+        <h3 class="custom-title-skills">Tools</h3>
+        <div>
+          <canvas id="myChart3"></canvas>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
+
+<section id="portfolio" class="bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-          <h3>Sturdy Templates</h3>
-          <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-        </div>
+      <div class="col-lg-12 text-center">
+        <h1 class="section-heading custom-text custom-title">Experiences</h1>
+        <hr>
       </div>
-      <div class="col-lg-3 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-          <h3>Ready to Ship</h3>
-          <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-          <h3>Up to Date</h3>
-          <p class="text-muted">We update dependencies to keep things fresh.</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-          <h3>Made with Love</h3>
-          <p class="text-muted">You have to make your websites with love these days!</p>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="custom-title-skills">Education</h3>
+        <table class='table borderless' style="margin: 0 auto;">
+          <tbody>
+            <tr>
+              <td style="font-weight: bold; width: 300px;">University of Victoria</td>
+              <td style="font-weight: bold;">Bachelor - Software Engineering</td>
+            </tr>
+            <tr>
+              <td>Sept 2014 - Aug 2019</td>
+              <td>Throughout my degree, I've studied a variety of different programming languages including Java, Python, C++, and C.
+                  In addition, I've taken a Software Architecture course which taught me the fundamentals of HTML(5), CSS(3), and Javascript, in addition to introducing me to Node.JS and MongoDB.
+                  I have also taken an Interactive Design course which taught me how important it is to ensure your application is usable as well as the basics of prototyping.
+                <br>
+                <span class="experience-details">
+                <span class="location">
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                    Victoria, BC
+                </span>
+              </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class="custom-title-skills">Work Experience</h3>
+        <table class='table borderless' style="margin: 0 auto;">
+          <tbody>
+            <tr>
+              <td style="font-weight: bold; width: 300px;">The Bazaar</td>
+              <td style="font-weight: bold;">Coop - Web Development</td>
+            </tr>
+            <tr>
+              <td>Sept 2016 - Dec 2016</td>
+              <td>
+                I did my first internship at a startup based out of Vancouver called The Bazaar.
+                There I learned to apply my knowledge of HTML(5), CSS(3), Javascript, and Node.JS.
+                They had me working on two different projects: the landing site and also the dashboard that they wanted to build for their platform.
+                <br>
+                  <span class="experience-details">
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        Vancouver, BC
+                    </span>
+                    <span class="seperator">|</span>
+                    <span class="link">
+                        <span class="glyphicon glyphicon-link"></span>
+                        <a href="http://thebazaar.io">http://thebazaar.io</a>
+                    </span>
+                  </span>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="font-weight: bold; width: 300px;">Panorama Recreation Center</td>
+              <td style="font-weight: bold;">Part time - Lifeguard and Swim Instructor</td>
+            </tr>
+            <tr>
+              <td>Sept 2013 - Sept 2016</td>
+              <td>
+                Throughout highschool and part of post secondary, I maintained a part time job as a lifeguard and swimming instructor at a local pool.
+                I learned a lot of valuable skills including being able to work under pressure, how to effectively communicate with others, and also how to lead and manage a team.
+                I also had to learn how to give useful feedback to students and explain to them how they can improve.
+                <br>
+                <span class="experience-details">
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        Victoria, BC
+                    </span>
+                  </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
 </section>
-
-<section class="no-padding" id="portfolio">
-  <div class="container-fluid">
-    <div class="row no-gutter popup-gallery">
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-          <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<aside class="bg-dark">
-  <div class="container text-center">
-    <div class="call-to-action">
-      <h2>Free Download at Start Bootstrap!</h2>
-      <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-    </div>
-  </div>
-</aside>
 
 <section id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <h2 class="section heading custom-text custom-title">Let's Get In Touch!</h2>
         <hr class="primary">
-        <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        <p>Want to find out more about me? That's great! Give me a call or send me an email and we can start chatting, even if it's just about how awesome cats are!</p>
       </div>
       <div class="col-lg-4 col-lg-offset-2 text-center">
         <i class="fa fa-phone fa-3x sr-contact"></i>
-        <p>123-456-6789</p>
+        <p>(250)-456-6789</p>
       </div>
       <div class="col-lg-4 text-center">
         <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-        <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+        <p><a href="mailto:brandonzhoucharles@gmail.com">brandonzhoucharles@gmail.com</a></p>
       </div>
     </div>
   </div>
@@ -275,6 +270,126 @@
 
 <!-- Theme JavaScript -->
 <script src="js/creative.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+<script>
+  // Removes legend
+  Chart.defaults.global.legend.display = false;
+
+  // Web Dev
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+      labels: ["HTML(5)", "CSS(3)", "MongoDB", "Node.JS", "Bootstrap Framework", "Javascript", "UML"],
+      datasets: [{
+        data: [19, 17, 15, 14, 13, 10, 7],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)',
+          'rgba(255, 99, 132, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)',
+          'rgba(255,99,132,1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true
+          }
+        }]
+      }
+    }
+  });
+
+  // Other Languages
+  var ctx2 = document.getElementById("myChart2");
+  var myChart2 = new Chart(ctx2, {
+    type: 'horizontalBar',
+    data: {
+      labels: ["English (native language)", "Chinese Simplified (很多)", "French (un petit peu)"],
+      datasets: [{
+        data: [19, 15, 7],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true
+          }
+        }]
+      }
+    }
+  });
+
+  // Tools
+  var ctx3 = document.getElementById("myChart3");
+  var myChart3 = new Chart(ctx3, {
+    type: 'horizontalBar',
+    data: {
+      labels: ["MS Office", "Windows", "Webkit Browsers", "IntelliJ", "Git/Github", "Balsamiq Mockups 3", "InVision", "Adobe Photoshop"],
+      datasets: [{
+        data: [19, 19, 17, 15, 15, 13, 10, 7],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true
+          }
+        }]
+      }
+    }
+  });
+</script>
 
 </body>
 
