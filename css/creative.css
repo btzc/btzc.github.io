@@ -55,9 +55,6 @@ p {
 section {
   padding: 100px 0;
 }
-aside {
-  padding: 50px 0;
-}
 .no-padding {
   padding: 0;
 }
@@ -145,6 +142,9 @@ aside {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #fb6542;
   }
+}
+footer {
+  background-color: #f1f1f2;
 }
 header {
   position: relative;
@@ -478,4 +478,12 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
   font-family: 'Open Sans', sans-serif !important;
+}
+.table-header {
+  font-weight: bold;
+  font-size: 14px;
+}
+.table-content {
+  font-size: 14px;
+  line-height: 1.42857143;
 }
