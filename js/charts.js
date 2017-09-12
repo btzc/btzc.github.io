@@ -30,9 +30,9 @@ var myChart = new Chart(ctx, {
     responsive: true,
     maintainAspectRatio: false,
     data: {
-        labels: ["HTML(5)", "CSS(3)", "MongoDB", "Node.JS", "Bootstrap Framework", "Javascript", "UML"],
+        labels: ["HTML(5)", "CSS(3)", "MongoDB", "Node.JS", "Bootstrap Framework", "Javascript", "JQuery"],
         datasets: [{
-            data: [16, 13, 13, 11, 14, 13, 7],
+            data: [18, 16, 13, 11, 14, 19, 17],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
