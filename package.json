@@ -20,7 +20,7 @@
     "gulp-header": "^1.8.8",
     "jquery": "^3.1.1",
     "magnific-popup": "^1.1.0",
-    "morgan": "~1.7.0",
+    "morgan": "~1.10.0",
     "scrollreveal": "^3.3.2",
     "serve-favicon": "~2.3.0"
   }
